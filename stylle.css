@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cx01, .cx02, .cx03{
+    width: 500px;
+    height: 200px;
+}
+.cx01{
+   background-color: blueviolet;
+}
+.cx02{
+   background-color: rgb(27, 45, 42);
+   box-shadow: 0 0 20px 5px rgb(0, 195, 255);
+}
+.cx03{
+   background-color: rgb(27, 207, 24);
+}
+.container{
+    height: 80vh;
+    /*background-color: rgb(9, 20, 17);*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+
+label{
+font-size: 20px;
+color: rgb(255, 255, 255);
+}
+
+button{
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(38, 38, 255);
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
+.lado-form{
+    height: 530px;
+}
+
+form{
+    width: 50%;
+    background-color:rgb(0, 84, 194);
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgb(0, 89, 255);
+    
+}
+
+input, textarea{
+    padding: 10px;
+    border:1px solid;
+    border-radius: 5px;
+}
+
+input[type="radio"]{
+    width: 15px;
+    height: 15px;
+}
+
+
+body{
+    background-image: url(/image/windows-11-microsoft.webp);
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    background-color: rgb(0, 0, 0);
+}
+ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    align-items: center;
+}
+
+
+
+
+
+
+h1 i{
+     color: aliceblue;
+}
+ul li a{
+    color: rgb(96, 84, 255);
+    font-size: 20px;
+    text-decoration: none;
+}
+
